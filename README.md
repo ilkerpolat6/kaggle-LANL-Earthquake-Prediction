@@ -6,5 +6,6 @@ With acoustic signal data we try to predict next earthquake. ( This was a team p
 For feature extraction we use both raw signal data and Fast Fourier Transform of raw signal. Then we give these features to different two Neural Network. After that we concatenate outputs of NNs and use as input for one last NN. 
 
 We taught using FFT could give us some clues about frequency of earthquakes. But most of features from FFT signal found useless (just a few of them impact the results).
+![alt text](https://github.com/ilkerpolat6/kaggle-LANL-Earthquake-Prediction/blob/master/lgbm_importances.png)
 
 Our model ranked as 189th between 4540 models.
